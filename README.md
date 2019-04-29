@@ -14,3 +14,14 @@ Reputation – What does the public really think about our company? Is our reput
 
 In this project, we will focus on a famous personality review(Reputation). Specifically, we will look at public sentiment as of what people feel about the current Prime Minister of India, Mr. Narendra Modi.   
 Subsequent score and wordcloud has to be generated corresponding to it. 
+
+#### APPROACH
+ 
+Every time we release a product or service, we want to receive feedback from users so as to know what they like and what they don’t. Sentiment Analysis can help us regarding that. Moreover, the sentiment analysis is also beneficial across all domains, whether it is for movie reviews, or product launch, or even for political parties.The political parties use this, so as to know better as of what the people’s grievances or complaints are. In fact, they use these analysis to know better about the reputation of their leader among the people.In the subsequent analysis, I have done sentiment analysis using twitter data on Mr. Narendra Modi.
+The basic approach was to get the twitter data and have a list of positive and negative words on the other side.
+The comparison of tweet words with the dictionary will let us know if the sentiment is positive or not.
+We shall use a basic scoring criteria for calculating the overall sentiment in a tweet, like
+              Positive Sentiment = +1
+              Negative Sentiment = -1
+              Neutral Sentiment = 0
+The overall count will let us know if the sentiment of people regarding the topic is positive, negative or neutral .
